@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* margin-top: 15rem; */
+    /* padding: 2rem; */
+    background: #434344;
+    /* border: 5px solid rgb(255, 255, 255); */
+    border-radius: 20px;
+    height: 100vh;
+}
+
+.title {
+    
+    color: gainsboro;
+}
+
+.subtitle {
+    color: #aaa6a6;
+}
+
+.num {
+    color: rgb(0, 255, 72);
+    font-size: 2rem;
+}
+
+.container {
+    display: flex;
+    gap: 2rem;
+}
